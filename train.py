@@ -12,7 +12,7 @@ parse
 
 tf.app.flags.DEFINE_integer('num_epochs', 5, 'number of epochs to train')
 tf.app.flags.DEFINE_integer('batch_size', 20, 'batch size to train in one step')
-tf.app.flags.DEFINE_integer('labels', 2, 'number of label classes')
+tf.app.flags.DEFINE_integer('labels', 3, 'number of label classes')
 tf.app.flags.DEFINE_integer('word_pad_length', 60, 'word pad length for training')
 tf.app.flags.DEFINE_integer('decay_step', 500, 'decay steps')
 tf.app.flags.DEFINE_float('learn_rate', 1e-2, 'learn rate for training optimization')
